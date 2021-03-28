@@ -1,1 +1,109 @@
+* {
+  box-sizing: border-box;
+}
 
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+	height: 65px;
+	width: 100%;
+	background-color: rgba(34, 49, 52, 0.9);
+	position: fixed;
+
+	z-index: 10;
+}
+
+.header-left img{
+	width: 70px;
+	height: 70px;
+	float: left;
+	border-radius: 50%;
+}
+
+.header-left h1{
+	font-size: 36px;
+	float: left;
+	color: white;
+	margin-top: 10px;
+
+}
+
+.header-right{
+	float: right;
+}
+
+.header-right a{
+	float: left;
+	color: white;
+	padding: 0 25px;
+	line-height: 65px;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.top-wrapper{
+	padding: 180px 0px 100px 0px;
+	background-color: blue;
+	background-size: cover; 
+
+}
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+	opacity: 1;
+}
+
+.fa {
+	margin-right: 5px;
+}
+ 
+.top-wrapper h1{
+	font-size: 36px;
+	letter-spacing: 5px;
+}
+.container-1 {
+	text-align: center;
+	color: white;
+}
+.shoope {
+	background-color: orange;
+	width: 50%;
+	font-size: 30px;
+}
+
+.instalgram {
+	background-color: red;
+	width: 50%;
+	font-size: 30px;
+}
+
+.menu-icon{
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  /* Gantikan property display ke none */
+  display: none;
+}

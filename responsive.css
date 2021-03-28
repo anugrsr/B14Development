@@ -1,1 +1,17 @@
+@media all and (max-width: 670px) {
+.shoope {
+	background-color: orange;
+	width: 100%;
+	font-size: 30px;
+}
 
+.instalgram {
+	background-color: red;
+	width: 100%;
+	font-size: 30px;
+}
+
+.header-right {
+	display: none;
+}
+}
