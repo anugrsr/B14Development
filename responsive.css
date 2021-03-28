@@ -1,1 +1,10 @@
-
+@media (max-width: 1000px){
+	.comment {
+		width: 100%;
+	}
+}
+@media (max-width: 670px){
+	.comment {
+		width: 100%;
+	}
+}
