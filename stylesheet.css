@@ -1,3 +1,72 @@
+body {
+	margin: 0;
+}
+* {
+	box-sizing: border-box;
+}
+
+.testi-section {
+	background-color: #f1f6f2;
+	text-align: center;
+}
+
+.testi-section h2 {
+	font-weight: normal;
+	font-style: "Playfair Display";
+	font-size: 48px;
+	color: #ffffff;
+	text-align: center;
+	border-bottom: 4px solid #ffffff; 
+}
+
+.comment {
+	float: left;
+	width: 50%;
+	
+}
+.user-comment {
+	margin-top: 15px;
+	margin-right: 50px;
+	margin-left: 50px;
+	border-top: 3px solid #75db63;
+	border-left: 3px solid #75db63;
+	box-shadow: 5px 5px 5px #1c2e18;
+	border-radius: 15px 30px;
+	animation-duration: 3s;
+	animation-name: slidein;
+}
+.user-opinion {
+	font-size: 28px;
+	padding: 0 10px;
+	color: #fff;
+}
+@keyframes slidein {
+	from {
+		transform: rotate(20deg);
+	}
+	to {
+		transform: none;
+	}
+}
+.user-opinion span {
+	font-size: 32px;
+	color: #c7db09;
+	font-style: "Inter";
+}
+.user-profile {
+	font-size: 24px;
+	color: #efefd2;
+}
+.rating {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.user-img {
+	transition: transform .2s;
+}
+.user-img:hover {
+ 	transform: scale(1.5)
+}
+
 * {
     box-sizing: border-box;
 }
