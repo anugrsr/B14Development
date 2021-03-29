@@ -35,6 +35,8 @@
 	border-radius: 15px 30px;
 	animation-duration: 3s;
 	animation-name: slidein;
+	background-color: #4c8a54;
+
 }
 .user-opinion {
 	font-size: 28px;
