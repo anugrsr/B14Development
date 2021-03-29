@@ -1,1 +1,235 @@
+* {
+    box-sizing: border-box;
+}
 
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.clear {
+    clear: left;
+}
+
+.featured-product {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    padding: 80px;
+}
+
+.featured-product-container {
+    display: flex;
+    margin: 0 auto;
+}
+
+.feature-desc-wrapper {
+    padding: 80px;
+    background-color: #fff;
+}
+
+.feature-desc {
+    text-align: left;
+}
+
+.feature-desc h4 {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 0.1em;
+    color: rgba(100, 120, 103, 0.6);
+}
+
+.feature-desc h2 {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: auto;
+    color: #4C8A54;
+}
+
+.feature-desc p {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #647867;
+}
+
+.feature-name h4 {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 48px;
+    /* identical to box height */
+    text-align: center;
+    color: #4C8A54;
+}
+
+.btn-wrapper {
+    display: flex;
+    float: right;
+    margin-top: 120px;
+}
+
+.btn-navigation {
+    width: 120px;
+    text-align: center;
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+.btn-navigation:hover {
+    opacity: 0.7;
+}
+
+.next {
+    background-color: #4c8a54;
+}
+
+.prev {
+    background-color: #cccccc;
+}
+
+.next-text {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.prev-text {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    /* identical to box height */
+    color: #919191;
+}
+
+.btn-navigation h2 {
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.feature-img-wrapper {
+    padding: 80px;
+    background: radial-gradient( 142.31% 142.31% at 50.07% 77.76%, #a2dea9 0%, #44824b 100%);
+}
+
+.feature-img {}
+
+.product-wrapper {
+    display: flex;
+    padding: 80px 5%;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.product-container {
+    margin: 0 auto;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+}
+
+.product-wrapper h2 {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 64px;
+    /* identical to box height */
+    color: #4C8A54;
+    text-align: left;
+}
+
+.heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+}
+
+.heading h2 {
+    font-weight: normal;
+}
+
+.lesson {
+    float: left;
+    width: 25%;
+}
+
+.lessons {
+    display: flex;
+}
+
+.lesson-icon {}
+
+.lesson-icon p {
+    top: 44%;
+    width: 100%;
+    color: white;
+}
+
+.text-contents {
+    width: 80%;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #b3aeb5;
+}
+
+.heading h3 {
+    font-weight: normal;
+}
+
+.img-size {
+    width: 100%;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: 0 auto;
+    margin-right: 30px;
+    text-align: center;
+    font-family: Source Sans pro;
+}
+
+.price {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    /* identical to box height, or 36px */
+    text-align: center;
+    color: #647867;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #4c8a54;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    font-family: Source Sans pro;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
