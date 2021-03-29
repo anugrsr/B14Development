@@ -402,3 +402,90 @@ header {
   /* Gantikan property display ke none */
   display: none;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* font-family: 'Playfair Display', serif; */
+  font-family: 'Inter', sans-serif;
+}
+
+h1, h2 {
+  margin: 20px 0;
+}
+
+.contact {
+  background-color: white;
+}
+
+.contact-form {
+  width: 90vw;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 100px 0;
+  flex-wrap: wrap;
+}
+
+.contact-form .contact-card {
+  width: 50%;
+  background-color: white;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, .3);
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.contact-form .contact-card .input {
+  height: 10px;
+  margin-bottom: 20px;
+  border: 2px solid #F1F6F2;
+  border-radius: 3px;
+  font-family: 'Inter', sans-serif;
+}
+
+.contact-form .contact-card .input.textarea {
+  height: 100px;
+}
+
+input, textarea {
+  font-size: 16px;
+  padding: 20px;
+}
+
+.contact-form .contact-card .input.btn {
+  background-color: #4C8A54;
+  color: white;
+  border-color: #4C8A54;
+  cursor: pointer;
+  height: 50px;
+}
+
+.contact-form .contact-detail {
+  width: 40%;
+}
+
+span {
+  margin-right: 10px;
+  width: 18px;
+  color: #4C8A54;
+}
+
+.contact-detail p {
+  margin-bottom: 10px;
+}
+
+footer {
+  width: 100vw;
+  height: 90px;
+  background-color: #4C8A54;
+  color: white;
+  text-align: center;
+  line-height: 90px;
+}
