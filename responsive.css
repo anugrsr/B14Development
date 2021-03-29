@@ -1,24 +1,28 @@
-/* Untuk Tablet */
-@media all and (max-width: 1000px) {
-  .contact-form .contact-card {
-    width: 40%;
-  }
+@media (max-width: 1000px){
+	.comment {
+		width: 100%;
+	}
+}
+@media (max-width: 670px){
+	.comment {
+		width: 100%;
+	}
 }
 
-/* Untuk Smartphone */
 @media all and (max-width: 670px) {
-  .contact-form {
-    padding: 50px 0;
-  }
+.shoope {
+	background-color: orange;
+	width: 100%;
+	font-size: 30px;
+}
 
-  .contact-form .contact-card {
-    width: 100%;
-    order: 2;
-  }
+.instalgram {
+	background-color: red;
+	width: 100%;
+	font-size: 30px;
+}
 
-  .contact-form .contact-detail {
-    width: 100%;
-    order: 1;
-    margin-bottom: 30px;
-  }
+.header-right {
+	display: none;
+}
 }
